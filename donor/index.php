@@ -68,7 +68,7 @@
       <div class="clear"></div>
 <div class="ftr-bg">
 <div class="wrap">
-<div class="footer">
+<!--div class="footer">
 	<div class="f_nav">
 		<ul>
 			<li class="active"><a href="index.php">Home</a></li>			
@@ -80,10 +80,10 @@
             </ul>
 	</div>
 		<div class="copy">
-			<p class="title">© All Rights Reserved | Design by Mr. Bhatia |</p>
+			<p class="title">© All Rights Reserved </p>
 		</div>
 	<div class="clear"></div>
-</div>
+</!--div>-->
 </div>
 </div>
 </body>

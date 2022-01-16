@@ -91,6 +91,7 @@ $cn=mysqli_connect("localhost","root","","bloodbank");
 $s="select * from requestes";
 	$result=mysqli_query($cn,$s);
 	$r=mysqli_num_rows($result);
+    $a = "select "
 	//echo $r;
 	while($data=mysqli_fetch_array($result))
 	{
@@ -112,7 +113,7 @@ $s="select * from requestes";
 		
 	</div>
 		<div class="copy">
-			<p class="title">© All Rights Reserved | Design by Mr. Bhatia |</p>
+			<p class="title">© All Rights Reserved</p>
 		</div>
 	<div class="clear"></div>
 </div>

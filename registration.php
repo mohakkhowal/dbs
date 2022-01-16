@@ -102,7 +102,7 @@ $s="select * from bloodgroup";
 <tr><td class="lefttd">Confirm Password</td><td><input type="password" name="t7" required="required" pattern="[a-zA-Z0-9 ]{2,10}" title="please enter only character or numbers between 2 to 10 for password" /></td></tr>
 
 <tr><td class="lefttd">Uplode Pic</td><td><input type="file" name="t8" /></td></tr>
-<tr><td>&nbsp;</td><td><input type="submit" value="Resitred" name="sbmt" style="border:0px; background:linear-gradient(#900,#D50000); width:100px; height:30px; border-radius:10px 1px 10px 1px; box-shadow:1px 1px 5px black; color:white; font-weight:bold; font-size:14px; text-shadow:1px 1px 6px black; "></td></tr></table>
+<tr><td>&nbsp;</td><td><input type="submit" value="Register" name="sbmt" style="border:0px; background:linear-gradient(#900,#D50000); width:100px; height:30px; border-radius:10px 1px 10px 1px; box-shadow:1px 1px 5px black; color:white; font-weight:bold; font-size:14px; text-shadow:1px 1px 6px black; "></td></tr></table>
 </td></tr>
 </table>
 </form>
@@ -123,7 +123,7 @@ $s="select * from bloodgroup";
             </ul>
 	</div>
 		<div class="copy">
-			<p class="title">© All Rights Reserved | Design by Mr. Bhatia |</p>
+			<p class="title">© All Rights Reserved</p>
 		</div>
 	<div class="clear"></div>
 </div>

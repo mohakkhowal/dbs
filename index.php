@@ -56,7 +56,7 @@
 <div class="wrap">
 <div class="h_btm">
 	<div class="header-para">
-		<img src="cpics/welcome.png"/>		
+		<!-img src="cpics/welcome.png"/>		
 		<p>Blood is universally recognized as the most precious element that sustains life. It saves innumerable lives across the world in a variety of conditions. The need for blood is great - on any given day, approximately 39,000 units of Red Blood Cells are needed. More than 29 million units of blood components are transfused every year.
 Donate Blood 	
 Despite the increase in the number of donors, blood remains in short supply during emergencies, mainly attributed to the lack of information and accessibility.
@@ -112,7 +112,7 @@ We positively believe this tool can overcome most of these challenges by effecti
 <div class="main">
 	<div class="content">		
 			<h4>Blood bank:</h4>
-			<p>We welcome you to in our WebSite. If you are a donor , We appreciate you <a href="index1.php">signing up</a> online as a Donor. If you need blood we are happy to serve you. This blood donor list is hosted by <a href="index.php">www.lifesaver.com</a> on behalf of "Life Saver Blood Bank"
+			<p>We welcome you to in our WebSite. If you are a donor , We appreciate you <a href="registration.php">signing up</a> online as a Donor. If you need blood we are happy to serve you. This blood donor list is hosted by <a href="index.php">www.lifesaver.com</a> on behalf of "Life Saver Blood Bank"
 as a public service without any profit motive.This is a free service. While the Organisers have taken all steps to obtain accurate and up-to-date information of potential blood donors, 
 the Organisers and ICM Computers do not guarantee accuracy of the information contained herein or the suitability of the persons listed as any liability for direct or consequential damage to any person using this blood donor list including 
 loss of life or damage due to infection of any nature arising out of blood transfusion from persons whose names have been listed in this website.

@@ -57,7 +57,7 @@
 
 
   <div   class="col span_2_of_3"> <div class="contact-form" style="padding-left:100px;">
-				  	<img src="cpics/contact.png" align="center" />
+				  	<!-img src="cpics/contact.png" align="center" />
   
     <table  cellspacing="0" cellpadding="0"  width="500px" height="300px">               
 
