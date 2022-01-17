@@ -91,7 +91,6 @@ $cn=mysqli_connect("localhost","root","","bloodbank");
 $s="select * from requestes";
 	$result=mysqli_query($cn,$s);
 	$r=mysqli_num_rows($result);
-    $a = "select "
 	//echo $r;
 	while($data=mysqli_fetch_array($result))
 	{
