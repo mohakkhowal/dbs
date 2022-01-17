@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 17, 2022 at 11:29 AM
+-- Generation Time: Jan 17, 2022 at 06:37 PM
 -- Server version: 10.4.21-MariaDB
 -- PHP Version: 8.0.12
 
@@ -140,7 +140,8 @@ INSERT INTO `contacts` (`row_id`, `name`, `email`, `mobile`, `subj`) VALUES
 (3, 'neeru', 'neeru45@gmail.com', '9463958058', 'give blooooooood'),
 (4, 'paras', 'bhatia34@gmail.com', '9216291294', 'save life'),
 (10, 'herry', 'herry@ymaol.com', '8790675438', 'give me a blood'),
-(11, 'Mohak Khowal', 'mailmohak16@gmail.com', '8404953354', 'trial!\r\n');
+(11, 'Mohak Khowal', 'mailmohak16@gmail.com', '8404953354', 'trial!\r\n'),
+(12, 'contact ', 'contact@gmail.com', '69696969', 'contact me');
 
 -- --------------------------------------------------------
 
@@ -184,7 +185,8 @@ INSERT INTO `donarregistration` (`donar_id`, `name`, `gender`, `age`, `mobile`, 
 (19, 'Preet karanq', 'female', '28', '8427429079', 14, 'preet22@yahoo.com', 123, '123.jpg'),
 (20, 'mntrtgrt', 'female', '35', '9888976570', 18, 'manat@yahoo.com', 123, 'ccccc.jpg'),
 (21, 'dhruv mehta', 'male', '22', '8887776665', 15, 'dhruv@g.com', 0, '1266425.jpg'),
-(22, 'Mohak Khowal', 'male', '21', '8404953354', 16, 'mailmohak16@gmail.com', 0, '4950754.jpg');
+(22, 'Mohak Khowal', 'male', '21', '8404953354', 16, 'mailmohak16@gmail.com', 0, '4950754.jpg'),
+(23, 'donor', 'male', '25', '9876543210', 18, 'donor@gmail.com', 0, '1145472 (2).png');
 
 -- --------------------------------------------------------
 
@@ -307,7 +309,8 @@ INSERT INTO `requestes` (`req_id`, `name`, `gender`, `age`, `mobile`, `email`, `
 (8, 'japleen', 'female', '22', '9216291294', 'jsimran08@gmail.com', 13, '2014-01-12 00:00:00', 'save life'),
 (9, 'Naresh', 'female', '21', '8427420291', 'nareshheer719@gmail.com', 17, '2015-01-18 00:00:00', 'save life'),
 (10, 'Taran', 'male', '55', '7589325050', 'taran@ymail.com', 14, '2012-01-29 00:00:00', ''),
-(11, 'Mohak Khowal', 'male', '19', '8404953354', 'mailmohak16@gmali.com', 13, '2022-01-16 00:00:00', 'help');
+(11, 'Mohak Khowal', 'male', '19', '8404953354', 'mailmohak16@gmali.com', 13, '2022-01-16 00:00:00', 'help'),
+(12, 'request', 'male', '20', '1234567890', 'request@gmail.com', 14, '2023-01-01 00:00:00', 'help.');
 
 -- --------------------------------------------------------
 
@@ -454,13 +457,13 @@ ALTER TABLE `city`
 -- AUTO_INCREMENT for table `contacts`
 --
 ALTER TABLE `contacts`
-  MODIFY `row_id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+  MODIFY `row_id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 
 --
 -- AUTO_INCREMENT for table `donarregistration`
 --
 ALTER TABLE `donarregistration`
-  MODIFY `donar_id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
+  MODIFY `donar_id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
 
 --
 -- AUTO_INCREMENT for table `donation`
@@ -484,7 +487,7 @@ ALTER TABLE `news`
 -- AUTO_INCREMENT for table `requestes`
 --
 ALTER TABLE `requestes`
-  MODIFY `req_id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+  MODIFY `req_id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 
 --
 -- AUTO_INCREMENT for table `state`
