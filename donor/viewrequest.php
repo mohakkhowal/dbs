@@ -93,8 +93,8 @@ $s="select * from requestes";
 	$r=mysqli_num_rows($result);
 	//echo $r;
 	while($data=mysqli_fetch_array($result))
-	{
-				echo"<tr><td  style=' padding-left:50px'>$data[0]</td><td  style=' padding-left:10px'>$data[1]</td><td  style=' padding-left:20px'>$data[2]</td><td  style=' padding-left:30px'>$data[3]</td><td  style=' padding-left:50px'>$data[4]</td><td  style=' padding-left:50px'>$data[5]</td><td  style=' padding-left:60px'>$data[6]</td></tr>";
+	{           $date = substr($data[7],0,10);
+				echo"<tr><td  style=' padding-left:50px'>$data[6]</td><td  style=' padding-left:10px'>$data[1]</td><td  style=' padding-left:20px'>$data[2]</td><td  style=' padding-left:30px'>$data[3]</td><td  style=' padding-left:50px'>$data[4]</td><td  style=' padding-left:50px'>$data[5]</td><td  style=' padding-left:60px'>$date</td></tr>";
 			}
 			mysqli_close($cn);
 			?>
