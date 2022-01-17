@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 16, 2022 at 10:40 PM
+-- Generation Time: Jan 17, 2022 at 11:29 AM
 -- Server version: 10.4.21-MariaDB
 -- PHP Version: 8.0.12
 
@@ -349,7 +349,8 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`username`, `pwd`, `typeofuser`) VALUES
 ('manu', 'manu', 'Admin'),
-('neeru', 'neeru', 'General');
+('neeru', 'neeru', 'General'),
+('admin', 'admin', 'Admin');
 
 --
 -- Indexes for dumped tables
