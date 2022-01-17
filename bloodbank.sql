@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 17, 2022 at 06:37 PM
+-- Generation Time: Jan 17, 2022 at 07:01 PM
 -- Server version: 10.4.21-MariaDB
 -- PHP Version: 8.0.12
 
@@ -217,7 +217,8 @@ INSERT INTO `donation` (`donation_id`, `camp_id`, `ddate`, `units`, `detail`, `e
 (34, 9, '2009-06-05 00:00:00', 10, 'give blood', 'manpreetkaler@yahoo.com'),
 (35, 1, '2012-09-13 00:00:00', 22, 'save life', 'sahildubey@gmail.com'),
 (36, 9, '0000-00-00 00:00:00', 444, 'kjj', 'neeru.bawa@yahoo.com'),
-(37, 1, '2010-01-01 00:00:00', 22222, 'haha', 'mailmohak16@gmail.com');
+(37, 1, '2010-01-01 00:00:00', 22222, 'haha', 'mailmohak16@gmail.com'),
+(38, 1, '2024-01-01 00:00:00', 16, 'did', 'donor@gmail.com');
 
 -- --------------------------------------------------------
 
@@ -469,7 +470,7 @@ ALTER TABLE `donarregistration`
 -- AUTO_INCREMENT for table `donation`
 --
 ALTER TABLE `donation`
-  MODIFY `donation_id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=38;
+  MODIFY `donation_id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=39;
 
 --
 -- AUTO_INCREMENT for table `gallary`
