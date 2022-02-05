@@ -59,29 +59,24 @@
 
    <tr><td>&nbsp;</td><td>&nbsp;</td></tr>   
  <tr style="background-color:bisque" align="center" class="bold">            
-             <td class="bold" style="color:red"  >Blood Group</td><td align="center">Name</td><td align="center">Gender</td><td align="center">Contact No</td><td align="center">Mobile No</td><td align="center">Email</td>
+             <td class="bold" style="color:red"  >Blood Group</td><td align="center">Name</td><td align="center">Gender</td><td align="center">Age</td><td align="center">Mobile No</td><td align="center">Email</td>
             <td align="center">Till Required Date</td>
         </tr>
-                   
 
-
+	@@ -88,13 +88,13 @@
 
 <?php
-
-	
 $cn=mysqli_connect("localhost","root","","bloodbank");
-$s="select * from requestes";
+$s="select * from requestes inner join bloodgroup on requestes.bgroup = bloodgroup.bg_id";
 	$result=mysqli_query($cn,$s);
 	$r=mysqli_num_rows($result);
 	//echo $r;
 	while($data=mysqli_fetch_array($result))
-	{
-				echo"<tr><td  style=' padding-left:50px'>$data[0]</td><td  style=' padding-left:10px'>$data[1]</td><td  style=' padding-left:20px'>$data[2]</td><td  style=' padding-left:30px'>$data[3]</td><td  style=' padding-left:50px'>$data[4]</td><td  style=' padding-left:50px'>$data[5]</td><td  style=' padding-left:60px'>$data[6]</td></tr>";
+	{           $date = substr($data[7],0,10);
+				echo"<tr><td  style=' padding-left:50px'>$data[10]</td><td  style=' padding-left:10px'>$data[1]</td><td  style=' padding-left:20px'>$data[2]</td><td  style=' padding-left:30px'>$data[3]</td><td  style=' padding-left:50px'>$data[4]</td><td  style=' padding-left:50px'>$data[5]</td><td  style=' padding-left:60px'>$date</td></tr>";
 			}
 			mysqli_close($cn);
 			?>
-
-
 </table>
 </form>
         </div>
